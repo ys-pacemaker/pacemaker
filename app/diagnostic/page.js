@@ -18,6 +18,7 @@ export default function DiagnosticPage() {
   const router = useRouter();
   const [phase, setPhase] = useState("intro"); // intro | exam | complete
   const [questions, setQuestions] = useState([]);
+  const [error, setError] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [responses, setResponses] = useState([]);
   const [selectedAnswer, setSelectedAnswer] = useState("");
@@ -30,7 +31,12 @@ export default function DiagnosticPage() {
 
   // Load questions
   useEffect(() => {
-    getDiagnosticQuestions(20).then(setQuestions);
+    getDiagnosticQuestions(20)
+      .then(setQuestions)
+      .catch(err => {
+        console.error("Failed to load questions:", err);
+        setError(err.message || "문항 데이터를 불러오는 중 오류가 발생했습니다.");
+      });
   }, []);
 
   // Per-question timer
@@ -151,14 +157,20 @@ export default function DiagnosticPage() {
               ))}
             </div>
 
+            {error && (
+              <div style={{ color: "var(--status-zoning-out)", marginTop: "var(--space-md)" }}>
+                ⚠️ {error}
+              </div>
+            )}
+
             <button
               className="btn btn-primary btn-lg"
               onClick={startExam}
-              disabled={questions.length === 0}
+              disabled={questions.length === 0 || error}
               id="btn-start-diagnostic"
               style={{ marginTop: "var(--space-xl)" }}
             >
-              {questions.length > 0 ? "테스트 시작하기 →" : "문항 로딩 중..."}
+              {error ? "로딩 실패" : questions.length > 0 ? "테스트 시작하기 →" : "문항 로딩 중..."}
             </button>
           </div>
         </div>
