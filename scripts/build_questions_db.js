@@ -65,9 +65,9 @@ function estimateAvgSolvingTime(questionNumber, correctRate) {
 }
 
 function parseFilename(filename, answerMap) {
-  // Pattern: 25-대수-06-1-지수.png
-  // macOS는 NFD 유니코드를 사용하므로 NFC로 정규화
-  const nameWithoutExt = filename.replace('.png', '').normalize('NFC');
+  // macOS는 NFD 유니코드를 사용하므로 NFC로 정규화 (Git은 NFC로 추적함)
+  const nfcFilename = filename.normalize('NFC');
+  const nameWithoutExt = nfcFilename.replace('.png', '');
   const parts = nameWithoutExt.split('-');
 
   if (parts.length < 5) return null;
@@ -98,7 +98,7 @@ function parseFilename(filename, answerMap) {
     exam_type_code: examTypeCode,
     question_number: questionNumber,
     unit,
-    question_image: `/data/images/${encodeURIComponent(filename)}`,
+    question_image: `/data/images/${encodeURIComponent(nfcFilename)}`,
     question_type: questionType,
     answer: String(answer),
     average_correct_rate: correctRate,

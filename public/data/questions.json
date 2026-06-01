@@ -7,11 +7,11 @@
     "exam_type_code": "06",
     "question_number": 1,
     "unit": "지수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-1-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-1-%EC%A7%80%EC%88%98.png",
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.92,
-    "average_solving_time_sec": 76,
+    "average_solving_time_sec": 81,
     "has_real_data": true
   },
   {
@@ -22,11 +22,11 @@
     "exam_type_code": "06",
     "question_number": 3,
     "unit": "수열의 합",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-3-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%A1%E1%86%B8.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-3-%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9.png",
     "question_type": "객관식",
     "answer": "14",
     "average_correct_rate": 0.85,
-    "average_solving_time_sec": 87,
+    "average_solving_time_sec": 94,
     "has_real_data": true
   },
   {
@@ -37,11 +37,11 @@
     "exam_type_code": "06",
     "question_number": 6,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-6-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-6-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.72,
-    "average_solving_time_sec": 127,
+    "average_solving_time_sec": 138,
     "has_real_data": true
   },
   {
@@ -52,11 +52,11 @@
     "exam_type_code": "06",
     "question_number": 8,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-8-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-8-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.68,
-    "average_solving_time_sec": 142,
+    "average_solving_time_sec": 152,
     "has_real_data": true
   },
   {
@@ -67,11 +67,11 @@
     "exam_type_code": "06",
     "question_number": 10,
     "unit": "로그함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-10-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-10-%EB%A1%9C%EA%B7%B8%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.55,
-    "average_solving_time_sec": 199,
+    "average_solving_time_sec": 209,
     "has_real_data": true
   },
   {
@@ -82,11 +82,11 @@
     "exam_type_code": "06",
     "question_number": 12,
     "unit": "수열의 귀납적 정의",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-12-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B1%E1%84%82%E1%85%A1%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-12-%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B7%80%EB%82%A9%EC%A0%81%20%EC%A0%95%EC%9D%98.png",
     "question_type": "객관식",
     "answer": "83",
     "average_correct_rate": 0.48,
-    "average_solving_time_sec": 207,
+    "average_solving_time_sec": 233,
     "has_real_data": true
   },
   {
@@ -97,11 +97,11 @@
     "exam_type_code": "06",
     "question_number": 14,
     "unit": "삼각함수의 활용",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-14-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-14-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98%EC%9D%98%20%ED%99%9C%EC%9A%A9.png",
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.42,
-    "average_solving_time_sec": 233,
+    "average_solving_time_sec": 241,
     "has_real_data": true
   },
   {
@@ -112,7 +112,7 @@
     "exam_type_code": "06",
     "question_number": 16,
     "unit": "로그함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-16-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-16-%EB%A1%9C%EA%B7%B8%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "19",
     "average_correct_rate": 0.38,
@@ -127,11 +127,11 @@
     "exam_type_code": "06",
     "question_number": 18,
     "unit": "수열의 합",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-18-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%A1%E1%86%B8.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-18-%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9.png",
     "question_type": "객관식",
     "answer": "32",
     "average_correct_rate": 0.3,
-    "average_solving_time_sec": 275,
+    "average_solving_time_sec": 292,
     "has_real_data": true
   },
   {
@@ -142,11 +142,11 @@
     "exam_type_code": "06",
     "question_number": 22,
     "unit": "지수함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-06-22-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-06-22-%EC%A7%80%EC%88%98%ED%95%A8%EC%88%98.png",
     "question_type": "주관식",
     "answer": "7",
     "average_correct_rate": 0.15,
-    "average_solving_time_sec": 346,
+    "average_solving_time_sec": 342,
     "has_real_data": true
   },
   {
@@ -157,11 +157,11 @@
     "exam_type_code": "07",
     "question_number": 1,
     "unit": "지수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-1-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-1-%EC%A7%80%EC%88%98.png",
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.9,
-    "average_solving_time_sec": 85,
+    "average_solving_time_sec": 71,
     "has_real_data": true
   },
   {
@@ -172,11 +172,11 @@
     "exam_type_code": "07",
     "question_number": 3,
     "unit": "등비수열",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-3-%E1%84%83%E1%85%B3%E1%86%BC%E1%84%87%E1%85%B5%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-3-%EB%93%B1%EB%B9%84%EC%88%98%EC%97%B4.png",
     "question_type": "객관식",
     "answer": "27",
     "average_correct_rate": 0.83,
-    "average_solving_time_sec": 113,
+    "average_solving_time_sec": 88,
     "has_real_data": true
   },
   {
@@ -187,11 +187,11 @@
     "exam_type_code": "07",
     "question_number": 6,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-6-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-6-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.7,
-    "average_solving_time_sec": 144,
+    "average_solving_time_sec": 152,
     "has_real_data": true
   },
   {
@@ -202,7 +202,7 @@
     "exam_type_code": "07",
     "question_number": 8,
     "unit": "로그",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-8-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-8-%EB%A1%9C%EA%B7%B8.png",
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.65,
@@ -217,11 +217,11 @@
     "exam_type_code": "07",
     "question_number": 10,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-10-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-10-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.52,
-    "average_solving_time_sec": 194,
+    "average_solving_time_sec": 217,
     "has_real_data": true
   },
   {
@@ -232,7 +232,7 @@
     "exam_type_code": "07",
     "question_number": 12,
     "unit": "등차수열",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-12-%E1%84%83%E1%85%B3%E1%86%BC%E1%84%8E%E1%85%A1%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-12-%EB%93%B1%EC%B0%A8%EC%88%98%EC%97%B4.png",
     "question_type": "객관식",
     "answer": "45",
     "average_correct_rate": 0.46,
@@ -247,11 +247,11 @@
     "exam_type_code": "07",
     "question_number": 14,
     "unit": "삼각함수의 활용",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-14-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-14-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98%EC%9D%98%20%ED%99%9C%EC%9A%A9.png",
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.4,
-    "average_solving_time_sec": 255,
+    "average_solving_time_sec": 245,
     "has_real_data": true
   },
   {
@@ -262,11 +262,11 @@
     "exam_type_code": "07",
     "question_number": 16,
     "unit": "로그함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-16-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-16-%EB%A1%9C%EA%B7%B8%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "23",
     "average_correct_rate": 0.35,
-    "average_solving_time_sec": 275,
+    "average_solving_time_sec": 265,
     "has_real_data": true
   },
   {
@@ -277,11 +277,11 @@
     "exam_type_code": "07",
     "question_number": 18,
     "unit": "수열의 합",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-18-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%A1%E1%86%B8.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-18-%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9.png",
     "question_type": "객관식",
     "answer": "56",
     "average_correct_rate": 0.28,
-    "average_solving_time_sec": 298,
+    "average_solving_time_sec": 290,
     "has_real_data": true
   },
   {
@@ -292,11 +292,11 @@
     "exam_type_code": "07",
     "question_number": 20,
     "unit": "지수함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-20-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-20-%EC%A7%80%EC%88%98%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.2,
-    "average_solving_time_sec": 309,
+    "average_solving_time_sec": 310,
     "has_real_data": true
   },
   {
@@ -307,11 +307,11 @@
     "exam_type_code": "07",
     "question_number": 22,
     "unit": "수열의 귀납적 정의",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-07-22-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B1%E1%84%82%E1%85%A1%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-07-22-%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B7%80%EB%82%A9%EC%A0%81%20%EC%A0%95%EC%9D%98.png",
     "question_type": "주관식",
     "answer": "12",
     "average_correct_rate": 0.12,
-    "average_solving_time_sec": 349,
+    "average_solving_time_sec": 356,
     "has_real_data": true
   },
   {
@@ -322,11 +322,11 @@
     "exam_type_code": "09",
     "question_number": 1,
     "unit": "지수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-1-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-1-%EC%A7%80%EC%88%98.png",
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.91,
-    "average_solving_time_sec": 75,
+    "average_solving_time_sec": 65,
     "has_real_data": true
   },
   {
@@ -337,11 +337,11 @@
     "exam_type_code": "09",
     "question_number": 3,
     "unit": "수열의 합",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-3-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%A1%E1%86%B8.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-3-%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9.png",
     "question_type": "객관식",
     "answer": "8",
     "average_correct_rate": 0.84,
-    "average_solving_time_sec": 92,
+    "average_solving_time_sec": 89,
     "has_real_data": true
   },
   {
@@ -352,11 +352,11 @@
     "exam_type_code": "09",
     "question_number": 6,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-6-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-6-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.71,
-    "average_solving_time_sec": 137,
+    "average_solving_time_sec": 149,
     "has_real_data": true
   },
   {
@@ -367,11 +367,11 @@
     "exam_type_code": "09",
     "question_number": 8,
     "unit": "로그",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-8-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-8-%EB%A1%9C%EA%B7%B8.png",
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.66,
-    "average_solving_time_sec": 166,
+    "average_solving_time_sec": 169,
     "has_real_data": true
   },
   {
@@ -382,11 +382,11 @@
     "exam_type_code": "09",
     "question_number": 10,
     "unit": "등비수열",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-10-%E1%84%83%E1%85%B3%E1%86%BC%E1%84%87%E1%85%B5%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-10-%EB%93%B1%EB%B9%84%EC%88%98%EC%97%B4.png",
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.53,
-    "average_solving_time_sec": 197,
+    "average_solving_time_sec": 214,
     "has_real_data": true
   },
   {
@@ -397,11 +397,11 @@
     "exam_type_code": "09",
     "question_number": 12,
     "unit": "지수함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-12-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-12-%EC%A7%80%EC%88%98%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "67",
     "average_correct_rate": 0.47,
-    "average_solving_time_sec": 234,
+    "average_solving_time_sec": 216,
     "has_real_data": true
   },
   {
@@ -412,11 +412,11 @@
     "exam_type_code": "09",
     "question_number": 14,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-14-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-14-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.41,
-    "average_solving_time_sec": 236,
+    "average_solving_time_sec": 251,
     "has_real_data": true
   },
   {
@@ -427,11 +427,11 @@
     "exam_type_code": "09",
     "question_number": 16,
     "unit": "수열의 귀납적 정의",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-16-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B1%E1%84%82%E1%85%A1%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-16-%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B7%80%EB%82%A9%EC%A0%81%20%EC%A0%95%EC%9D%98.png",
     "question_type": "객관식",
     "answer": "15",
     "average_correct_rate": 0.36,
-    "average_solving_time_sec": 268,
+    "average_solving_time_sec": 275,
     "has_real_data": true
   },
   {
@@ -442,11 +442,11 @@
     "exam_type_code": "09",
     "question_number": 18,
     "unit": "등차수열",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-18-%E1%84%83%E1%85%B3%E1%86%BC%E1%84%8E%E1%85%A1%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-18-%EB%93%B1%EC%B0%A8%EC%88%98%EC%97%B4.png",
     "question_type": "객관식",
     "answer": "24",
     "average_correct_rate": 0.29,
-    "average_solving_time_sec": 293,
+    "average_solving_time_sec": 290,
     "has_real_data": true
   },
   {
@@ -457,11 +457,11 @@
     "exam_type_code": "09",
     "question_number": 22,
     "unit": "로그함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-09-22-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-09-22-%EB%A1%9C%EA%B7%B8%ED%95%A8%EC%88%98.png",
     "question_type": "주관식",
     "answer": "9",
     "average_correct_rate": 0.14,
-    "average_solving_time_sec": 329,
+    "average_solving_time_sec": 339,
     "has_real_data": true
   },
   {
@@ -472,11 +472,11 @@
     "exam_type_code": "10",
     "question_number": 1,
     "unit": "지수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-1-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-1-%EC%A7%80%EC%88%98.png",
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.93,
-    "average_solving_time_sec": 62,
+    "average_solving_time_sec": 71,
     "has_real_data": true
   },
   {
@@ -487,11 +487,11 @@
     "exam_type_code": "10",
     "question_number": 3,
     "unit": "등비수열",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-3-%E1%84%83%E1%85%B3%E1%86%BC%E1%84%87%E1%85%B5%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-3-%EB%93%B1%EB%B9%84%EC%88%98%EC%97%B4.png",
     "question_type": "객관식",
     "answer": "35",
     "average_correct_rate": 0.86,
-    "average_solving_time_sec": 93,
+    "average_solving_time_sec": 98,
     "has_real_data": true
   },
   {
@@ -502,11 +502,11 @@
     "exam_type_code": "10",
     "question_number": 6,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-6-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-6-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.73,
-    "average_solving_time_sec": 139,
+    "average_solving_time_sec": 131,
     "has_real_data": true
   },
   {
@@ -517,11 +517,11 @@
     "exam_type_code": "10",
     "question_number": 8,
     "unit": "로그",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-8-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-8-%EB%A1%9C%EA%B7%B8.png",
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.67,
-    "average_solving_time_sec": 163,
+    "average_solving_time_sec": 159,
     "has_real_data": true
   },
   {
@@ -532,11 +532,11 @@
     "exam_type_code": "10",
     "question_number": 10,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-10-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-10-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.54,
-    "average_solving_time_sec": 203,
+    "average_solving_time_sec": 189,
     "has_real_data": true
   },
   {
@@ -547,11 +547,11 @@
     "exam_type_code": "10",
     "question_number": 12,
     "unit": "수열의 합",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-12-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%A1%E1%86%B8.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-12-%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9.png",
     "question_type": "객관식",
     "answer": "78",
     "average_correct_rate": 0.49,
-    "average_solving_time_sec": 232,
+    "average_solving_time_sec": 207,
     "has_real_data": true
   },
   {
@@ -562,11 +562,11 @@
     "exam_type_code": "10",
     "question_number": 14,
     "unit": "삼각함수의 활용",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-14-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-14-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98%EC%9D%98%20%ED%99%9C%EC%9A%A9.png",
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.43,
-    "average_solving_time_sec": 232,
+    "average_solving_time_sec": 234,
     "has_real_data": true
   },
   {
@@ -577,11 +577,11 @@
     "exam_type_code": "10",
     "question_number": 16,
     "unit": "로그함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-16-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-16-%EB%A1%9C%EA%B7%B8%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "11",
     "average_correct_rate": 0.37,
-    "average_solving_time_sec": 261,
+    "average_solving_time_sec": 246,
     "has_real_data": true
   },
   {
@@ -592,11 +592,11 @@
     "exam_type_code": "10",
     "question_number": 18,
     "unit": "수열의 합",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-18-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%A1%E1%86%B8.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-18-%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9.png",
     "question_type": "객관식",
     "answer": "42",
     "average_correct_rate": 0.31,
-    "average_solving_time_sec": 283,
+    "average_solving_time_sec": 284,
     "has_real_data": true
   },
   {
@@ -607,11 +607,11 @@
     "exam_type_code": "10",
     "question_number": 20,
     "unit": "지수함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-20-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-20-%EC%A7%80%EC%88%98%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.22,
-    "average_solving_time_sec": 301,
+    "average_solving_time_sec": 312,
     "has_real_data": true
   },
   {
@@ -622,11 +622,11 @@
     "exam_type_code": "10",
     "question_number": 22,
     "unit": "수열의 귀납적 정의",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-10-22-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B1%E1%84%82%E1%85%A1%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-10-22-%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B7%80%EB%82%A9%EC%A0%81%20%EC%A0%95%EC%9D%98.png",
     "question_type": "주관식",
     "answer": "5",
     "average_correct_rate": 0.13,
-    "average_solving_time_sec": 357,
+    "average_solving_time_sec": 349,
     "has_real_data": true
   },
   {
@@ -637,11 +637,11 @@
     "exam_type_code": "11",
     "question_number": 1,
     "unit": "지수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-1-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-1-%EC%A7%80%EC%88%98.png",
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.94,
-    "average_solving_time_sec": 65,
+    "average_solving_time_sec": 49,
     "has_real_data": true
   },
   {
@@ -652,11 +652,11 @@
     "exam_type_code": "11",
     "question_number": 3,
     "unit": "수열의 합",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-3-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%A1%E1%86%B8.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-3-%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9.png",
     "question_type": "객관식",
     "answer": "16",
     "average_correct_rate": 0.87,
-    "average_solving_time_sec": 95,
+    "average_solving_time_sec": 94,
     "has_real_data": true
   },
   {
@@ -667,11 +667,11 @@
     "exam_type_code": "11",
     "question_number": 6,
     "unit": "로그",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-6-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-6-%EB%A1%9C%EA%B7%B8.png",
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.74,
-    "average_solving_time_sec": 131,
+    "average_solving_time_sec": 125,
     "has_real_data": true
   },
   {
@@ -682,11 +682,11 @@
     "exam_type_code": "11",
     "question_number": 8,
     "unit": "삼각함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-8-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-8-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.69,
-    "average_solving_time_sec": 148,
+    "average_solving_time_sec": 140,
     "has_real_data": true
   },
   {
@@ -697,11 +697,11 @@
     "exam_type_code": "11",
     "question_number": 10,
     "unit": "지수함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-10-%E1%84%8C%E1%85%B5%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-10-%EC%A7%80%EC%88%98%ED%95%A8%EC%88%98.png",
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.56,
-    "average_solving_time_sec": 197,
+    "average_solving_time_sec": 198,
     "has_real_data": true
   },
   {
@@ -712,7 +712,7 @@
     "exam_type_code": "11",
     "question_number": 12,
     "unit": "등비수열",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-12-%E1%84%83%E1%85%B3%E1%86%BC%E1%84%87%E1%85%B5%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-12-%EB%93%B1%EB%B9%84%EC%88%98%EC%97%B4.png",
     "question_type": "객관식",
     "answer": "91",
     "average_correct_rate": 0.5,
@@ -727,11 +727,11 @@
     "exam_type_code": "11",
     "question_number": 14,
     "unit": "삼각함수의 활용",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-14-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-14-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98%EC%9D%98%20%ED%99%9C%EC%9A%A9.png",
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.44,
-    "average_solving_time_sec": 226,
+    "average_solving_time_sec": 243,
     "has_real_data": true
   },
   {
@@ -742,11 +742,11 @@
     "exam_type_code": "11",
     "question_number": 16,
     "unit": "수열의 귀납적 정의",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-16-%E1%84%89%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%B1%E1%84%82%E1%85%A1%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-16-%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B7%80%EB%82%A9%EC%A0%81%20%EC%A0%95%EC%9D%98.png",
     "question_type": "객관식",
     "answer": "28",
     "average_correct_rate": 0.39,
-    "average_solving_time_sec": 239,
+    "average_solving_time_sec": 265,
     "has_real_data": true
   },
   {
@@ -757,11 +757,11 @@
     "exam_type_code": "11",
     "question_number": 18,
     "unit": "삼각함수의 활용",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-18-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-18-%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98%EC%9D%98%20%ED%99%9C%EC%9A%A9.png",
     "question_type": "객관식",
     "answer": "53",
     "average_correct_rate": 0.32,
-    "average_solving_time_sec": 285,
+    "average_solving_time_sec": 275,
     "has_real_data": true
   },
   {
@@ -772,7 +772,7 @@
     "exam_type_code": "11",
     "question_number": 22,
     "unit": "로그함수",
-    "question_image": "/data/images/25-%E1%84%83%E1%85%A2%E1%84%89%E1%85%AE-11-22-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE.png",
+    "question_image": "/data/images/25-%EB%8C%80%EC%88%98-11-22-%EB%A1%9C%EA%B7%B8%ED%95%A8%EC%88%98.png",
     "question_type": "주관식",
     "answer": "4",
     "average_correct_rate": 0.16,
