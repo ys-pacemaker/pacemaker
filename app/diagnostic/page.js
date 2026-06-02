@@ -286,6 +286,11 @@ export default function DiagnosticPage() {
                 type="number"
                 value={selectedAnswer}
                 onChange={(e) => setSelectedAnswer(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" && selectedAnswer) {
+                    submitAnswer();
+                  }
+                }}
                 placeholder="정답 입력"
                 style={styles.answerInput}
                 id="answer-input"
