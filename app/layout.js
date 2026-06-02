@@ -12,13 +12,13 @@ export default function RootLayout({ children }) {
       <body>
         <nav className="navbar">
           <div className="navbar-content">
-            <a href="/" className="navbar-logo">
+            <a href="/pacemaker" className="navbar-logo">
               ⚡ <span>PaceMaker</span>
             </a>
             <ul className="navbar-nav">
-              <li><a href="/diagnostic">진단 테스트</a></li>
-              <li><a href="/exam">시험 세션</a></li>
-              <li><a href="/history">학습 이력</a></li>
+              <li><a href="/pacemaker/diagnostic">진단 테스트</a></li>
+              <li><a href="/pacemaker/exam">시험 세션</a></li>
+              <li><a href="/pacemaker/history">학습 이력</a></li>
             </ul>
           </div>
         </nav>
