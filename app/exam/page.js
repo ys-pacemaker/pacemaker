@@ -465,6 +465,16 @@ export default function ExamPage() {
                   type="number"
                   value={selectedAnswer}
                   onChange={(e) => setSelectedAnswer(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" && selectedAnswer) {
+                      saveCurrentAnswer();
+                      if (currentIndex < questions.length - 1) {
+                        setCurrentIndex(currentIndex + 1);
+                      } else {
+                        submitAll();
+                      }
+                    }
+                  }}
                   placeholder="정답 입력"
                   style={styles.answerInput}
                   id="answer-input"
