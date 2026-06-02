@@ -486,8 +486,31 @@ input, select, textarea {
   background: var(--bg-glass);
 }
 
+/* === Grid Utilities === */
+.grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
+.grid-cols-report { grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr; }
+.grid-cols-exam-layout { grid-template-columns: 200px 1fr; }
+
 /* === Responsive === */
+@media (max-width: 1024px) {
+  /* Tablet overrides */
+  .grid-cols-5 { grid-template-columns: repeat(3, 1fr); }
+  .grid-cols-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-cols-3 { grid-template-columns: repeat(2, 1fr); }
+  .grid-cols-report { grid-template-columns: 1fr; }
+  .grid-cols-exam-layout { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 768px) {
+  /* Mobile overrides */
+  .grid-cols-5 { grid-template-columns: repeat(2, 1fr); }
+  .grid-cols-4 { grid-template-columns: 1fr; }
+  .grid-cols-3 { grid-template-columns: 1fr; }
+  .grid-cols-2 { grid-template-columns: 1fr; }
+  
   .heading-xl {
     font-size: 2.5rem;
   }

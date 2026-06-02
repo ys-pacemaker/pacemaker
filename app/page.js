@@ -70,7 +70,7 @@ export default function HomePage() {
           </div>
 
           {/* Stats */}
-          <div style={styles.statsGrid} className="animate-fade-in-up stagger-2">
+          <div style={styles.statsGrid} className="grid-cols-4 animate-fade-in-up stagger-2">
             {[
               { value: "52+", label: "문항 데이터베이스", icon: "📚" },
               { value: "4단계", label: "분석 세션", icon: "🔬" },
@@ -96,7 +96,7 @@ export default function HomePage() {
             학습 전략을 완성하세요
           </h2>
 
-          <div style={styles.featureGrid}>
+          <div style={styles.featureGrid} className="grid-cols-2">
             {[
               {
                 step: "01",
@@ -157,7 +157,7 @@ export default function HomePage() {
             핵심 <span className="text-gradient">통계 분석</span> 모듈
           </h2>
           
-          <div style={styles.analysisGrid}>
+          <div style={styles.analysisGrid} className="grid-cols-3">
             <div className="glass-card" style={styles.analysisCard}>
               <div style={{ ...styles.analysisBadge, background: 'rgba(255, 107, 107, 0.15)', color: 'var(--status-zoning-out)' }}>
                 Zoning Out
@@ -297,7 +297,6 @@ const styles = {
   },
   statsGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)',
     gap: 'var(--space-md)',
     marginTop: 'var(--space-3xl)',
   },
@@ -333,7 +332,6 @@ const styles = {
   },
   featureGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
     gap: 'var(--space-lg)',
   },
   featureCard: {
@@ -386,7 +384,6 @@ const styles = {
   },
   analysisGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
     gap: 'var(--space-lg)',
   },
   analysisCard: {
