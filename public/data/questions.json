@@ -11,7 +11,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.9,
-    "average_solving_time_sec": 68,
+    "average_solving_time_sec": 62,
     "has_real_data": true
   },
   {
@@ -26,7 +26,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.82,
-    "average_solving_time_sec": 90,
+    "average_solving_time_sec": 95,
     "has_real_data": true
   },
   {
@@ -41,7 +41,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.81,
-    "average_solving_time_sec": 119,
+    "average_solving_time_sec": 98,
     "has_real_data": true
   },
   {
@@ -56,7 +56,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.74,
-    "average_solving_time_sec": 131,
+    "average_solving_time_sec": 117,
     "has_real_data": true
   },
   {
@@ -71,7 +71,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.57,
-    "average_solving_time_sec": 200,
+    "average_solving_time_sec": 195,
     "has_real_data": true
   },
   {
@@ -86,7 +86,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.53,
-    "average_solving_time_sec": 193,
+    "average_solving_time_sec": 210,
     "has_real_data": true
   },
   {
@@ -101,7 +101,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.54,
-    "average_solving_time_sec": 208,
+    "average_solving_time_sec": 200,
     "has_real_data": true
   },
   {
@@ -116,7 +116,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.91,
-    "average_solving_time_sec": 78,
+    "average_solving_time_sec": 58,
     "has_real_data": true
   },
   {
@@ -131,7 +131,7 @@
     "question_type": "객관식",
     "answer": "113",
     "average_correct_rate": 0.8,
-    "average_solving_time_sec": 97,
+    "average_solving_time_sec": 113,
     "has_real_data": true
   },
   {
@@ -146,7 +146,7 @@
     "question_type": "객관식",
     "answer": "36",
     "average_correct_rate": 0.6,
-    "average_solving_time_sec": 183,
+    "average_solving_time_sec": 188,
     "has_real_data": true
   },
   {
@@ -161,7 +161,7 @@
     "question_type": "객관식",
     "answer": "13",
     "average_correct_rate": 0.51,
-    "average_solving_time_sec": 206,
+    "average_solving_time_sec": 215,
     "has_real_data": true
   },
   {
@@ -176,7 +176,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.91,
-    "average_solving_time_sec": 85,
+    "average_solving_time_sec": 77,
     "has_real_data": true
   },
   {
@@ -191,7 +191,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.9,
-    "average_solving_time_sec": 62,
+    "average_solving_time_sec": 65,
     "has_real_data": true
   },
   {
@@ -206,7 +206,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.78,
-    "average_solving_time_sec": 113,
+    "average_solving_time_sec": 105,
     "has_real_data": true
   },
   {
@@ -221,7 +221,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.73,
-    "average_solving_time_sec": 145,
+    "average_solving_time_sec": 125,
     "has_real_data": true
   },
   {
@@ -236,7 +236,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.6,
-    "average_solving_time_sec": 178,
+    "average_solving_time_sec": 183,
     "has_real_data": true
   },
   {
@@ -251,7 +251,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.62,
-    "average_solving_time_sec": 160,
+    "average_solving_time_sec": 184,
     "has_real_data": true
   },
   {
@@ -266,7 +266,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.5,
-    "average_solving_time_sec": 212,
+    "average_solving_time_sec": 208,
     "has_real_data": true
   },
   {
@@ -281,7 +281,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.53,
-    "average_solving_time_sec": 216,
+    "average_solving_time_sec": 218,
     "has_real_data": true
   },
   {
@@ -296,7 +296,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.85,
-    "average_solving_time_sec": 104,
+    "average_solving_time_sec": 102,
     "has_real_data": true
   },
   {
@@ -311,7 +311,7 @@
     "question_type": "객관식",
     "answer": "11",
     "average_correct_rate": 0.52,
-    "average_solving_time_sec": 217,
+    "average_solving_time_sec": 196,
     "has_real_data": true
   },
   {
@@ -326,7 +326,7 @@
     "question_type": "객관식",
     "answer": "64",
     "average_correct_rate": 0.47,
-    "average_solving_time_sec": 233,
+    "average_solving_time_sec": 216,
     "has_real_data": true
   },
   {
@@ -341,7 +341,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.86,
-    "average_solving_time_sec": 86,
+    "average_solving_time_sec": 79,
     "has_real_data": true
   },
   {
@@ -356,7 +356,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.84,
-    "average_solving_time_sec": 109,
+    "average_solving_time_sec": 99,
     "has_real_data": true
   },
   {
@@ -371,7 +371,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.72,
-    "average_solving_time_sec": 129,
+    "average_solving_time_sec": 134,
     "has_real_data": true
   },
   {
@@ -386,7 +386,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.76,
-    "average_solving_time_sec": 118,
+    "average_solving_time_sec": 138,
     "has_real_data": true
   },
   {
@@ -401,7 +401,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.52,
-    "average_solving_time_sec": 213,
+    "average_solving_time_sec": 202,
     "has_real_data": true
   },
   {
@@ -416,7 +416,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.5,
-    "average_solving_time_sec": 204,
+    "average_solving_time_sec": 212,
     "has_real_data": true
   },
   {
@@ -431,7 +431,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.53,
-    "average_solving_time_sec": 216,
+    "average_solving_time_sec": 211,
     "has_real_data": true
   },
   {
@@ -446,7 +446,7 @@
     "question_type": "객관식",
     "answer": "7",
     "average_correct_rate": 0.81,
-    "average_solving_time_sec": 104,
+    "average_solving_time_sec": 117,
     "has_real_data": true
   },
   {
@@ -461,7 +461,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.82,
-    "average_solving_time_sec": 97,
+    "average_solving_time_sec": 111,
     "has_real_data": true
   },
   {
@@ -476,7 +476,7 @@
     "question_type": "객관식",
     "answer": "24",
     "average_correct_rate": 0.49,
-    "average_solving_time_sec": 224,
+    "average_solving_time_sec": 219,
     "has_real_data": true
   },
   {
@@ -491,7 +491,7 @@
     "question_type": "주관식",
     "answer": "231",
     "average_correct_rate": 0.32,
-    "average_solving_time_sec": 286,
+    "average_solving_time_sec": 273,
     "has_real_data": true
   },
   {
@@ -506,7 +506,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.91,
-    "average_solving_time_sec": 68,
+    "average_solving_time_sec": 58,
     "has_real_data": true
   },
   {
@@ -521,7 +521,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.72,
-    "average_solving_time_sec": 151,
+    "average_solving_time_sec": 136,
     "has_real_data": true
   },
   {
@@ -536,7 +536,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.82,
-    "average_solving_time_sec": 111,
+    "average_solving_time_sec": 106,
     "has_real_data": true
   },
   {
@@ -566,7 +566,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.66,
-    "average_solving_time_sec": 173,
+    "average_solving_time_sec": 154,
     "has_real_data": true
   },
   {
@@ -581,7 +581,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.5,
-    "average_solving_time_sec": 206,
+    "average_solving_time_sec": 229,
     "has_real_data": true
   },
   {
@@ -596,7 +596,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.49,
-    "average_solving_time_sec": 215,
+    "average_solving_time_sec": 207,
     "has_real_data": true
   },
   {
@@ -611,7 +611,7 @@
     "question_type": "객관식",
     "answer": "11",
     "average_correct_rate": 0.84,
-    "average_solving_time_sec": 91,
+    "average_solving_time_sec": 86,
     "has_real_data": true
   },
   {
@@ -641,7 +641,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.64,
-    "average_solving_time_sec": 174,
+    "average_solving_time_sec": 159,
     "has_real_data": true
   },
   {
@@ -656,7 +656,7 @@
     "question_type": "객관식",
     "answer": "8",
     "average_correct_rate": 0.38,
-    "average_solving_time_sec": 269,
+    "average_solving_time_sec": 243,
     "has_real_data": true
   },
   {
@@ -671,7 +671,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.86,
-    "average_solving_time_sec": 78,
+    "average_solving_time_sec": 88,
     "has_real_data": true
   },
   {
@@ -686,7 +686,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.86,
-    "average_solving_time_sec": 81,
+    "average_solving_time_sec": 88,
     "has_real_data": true
   },
   {
@@ -701,7 +701,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.77,
-    "average_solving_time_sec": 130,
+    "average_solving_time_sec": 114,
     "has_real_data": true
   },
   {
@@ -716,7 +716,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.76,
-    "average_solving_time_sec": 136,
+    "average_solving_time_sec": 110,
     "has_real_data": true
   },
   {
@@ -731,7 +731,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.61,
-    "average_solving_time_sec": 186,
+    "average_solving_time_sec": 191,
     "has_real_data": true
   },
   {
@@ -761,7 +761,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.5,
-    "average_solving_time_sec": 214,
+    "average_solving_time_sec": 208,
     "has_real_data": true
   },
   {
@@ -776,7 +776,7 @@
     "question_type": "객관식",
     "answer": "7",
     "average_correct_rate": 0.85,
-    "average_solving_time_sec": 97,
+    "average_solving_time_sec": 81,
     "has_real_data": true
   },
   {
@@ -791,7 +791,7 @@
     "question_type": "객관식",
     "answer": "29",
     "average_correct_rate": 0.78,
-    "average_solving_time_sec": 120,
+    "average_solving_time_sec": 108,
     "has_real_data": true
   },
   {
@@ -806,7 +806,7 @@
     "question_type": "객관식",
     "answer": "15",
     "average_correct_rate": 0.5,
-    "average_solving_time_sec": 213,
+    "average_solving_time_sec": 215,
     "has_real_data": true
   },
   {
@@ -821,7 +821,7 @@
     "question_type": "주관식",
     "answer": "8",
     "average_correct_rate": 0.32,
-    "average_solving_time_sec": 277,
+    "average_solving_time_sec": 270,
     "has_real_data": true
   },
   {
@@ -836,7 +836,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.87,
-    "average_solving_time_sec": 94,
+    "average_solving_time_sec": 76,
     "has_real_data": true
   },
   {
@@ -851,7 +851,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.83,
-    "average_solving_time_sec": 110,
+    "average_solving_time_sec": 111,
     "has_real_data": true
   },
   {
@@ -866,7 +866,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.73,
-    "average_solving_time_sec": 128,
+    "average_solving_time_sec": 135,
     "has_real_data": true
   },
   {
@@ -881,7 +881,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.63,
-    "average_solving_time_sec": 161,
+    "average_solving_time_sec": 155,
     "has_real_data": true
   },
   {
@@ -896,7 +896,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.48,
-    "average_solving_time_sec": 214,
+    "average_solving_time_sec": 227,
     "has_real_data": true
   },
   {
@@ -911,7 +911,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.69,
-    "average_solving_time_sec": 155,
+    "average_solving_time_sec": 161,
     "has_real_data": true
   },
   {
@@ -926,7 +926,7 @@
     "question_type": "객관식",
     "answer": "6",
     "average_correct_rate": 0.88,
-    "average_solving_time_sec": 82,
+    "average_solving_time_sec": 74,
     "has_real_data": true
   },
   {
@@ -941,7 +941,7 @@
     "question_type": "객관식",
     "answer": "12",
     "average_correct_rate": 0.78,
-    "average_solving_time_sec": 110,
+    "average_solving_time_sec": 129,
     "has_real_data": true
   },
   {
@@ -956,7 +956,7 @@
     "question_type": "객관식",
     "answer": "84",
     "average_correct_rate": 0.5,
-    "average_solving_time_sec": 226,
+    "average_solving_time_sec": 221,
     "has_real_data": true
   },
   {
@@ -971,7 +971,7 @@
     "question_type": "객관식",
     "answer": "15",
     "average_correct_rate": 0.46,
-    "average_solving_time_sec": 238,
+    "average_solving_time_sec": 240,
     "has_real_data": true
   },
   {
@@ -986,7 +986,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.92,
-    "average_solving_time_sec": 83,
+    "average_solving_time_sec": 81,
     "has_real_data": true
   },
   {
@@ -1001,7 +1001,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.82,
-    "average_solving_time_sec": 94,
+    "average_solving_time_sec": 108,
     "has_real_data": true
   },
   {
@@ -1016,7 +1016,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.79,
-    "average_solving_time_sec": 122,
+    "average_solving_time_sec": 99,
     "has_real_data": true
   },
   {
@@ -1031,7 +1031,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.75,
-    "average_solving_time_sec": 115,
+    "average_solving_time_sec": 116,
     "has_real_data": true
   },
   {
@@ -1046,7 +1046,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.71,
-    "average_solving_time_sec": 151,
+    "average_solving_time_sec": 154,
     "has_real_data": true
   },
   {
@@ -1061,7 +1061,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.55,
-    "average_solving_time_sec": 190,
+    "average_solving_time_sec": 189,
     "has_real_data": true
   },
   {
@@ -1076,7 +1076,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.52,
-    "average_solving_time_sec": 195,
+    "average_solving_time_sec": 217,
     "has_real_data": true
   },
   {
@@ -1091,7 +1091,7 @@
     "question_type": "객관식",
     "answer": "7",
     "average_correct_rate": 0.86,
-    "average_solving_time_sec": 97,
+    "average_solving_time_sec": 100,
     "has_real_data": true
   },
   {
@@ -1106,7 +1106,7 @@
     "question_type": "객관식",
     "answer": "96",
     "average_correct_rate": 0.71,
-    "average_solving_time_sec": 129,
+    "average_solving_time_sec": 144,
     "has_real_data": true
   },
   {
@@ -1121,7 +1121,7 @@
     "question_type": "객관식",
     "answer": "36",
     "average_correct_rate": 0.48,
-    "average_solving_time_sec": 214,
+    "average_solving_time_sec": 233,
     "has_real_data": true
   },
   {
@@ -1136,7 +1136,7 @@
     "question_type": "주관식",
     "answer": "64",
     "average_correct_rate": 0.32,
-    "average_solving_time_sec": 292,
+    "average_solving_time_sec": 278,
     "has_real_data": true
   },
   {
@@ -1166,7 +1166,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.9,
-    "average_solving_time_sec": 87,
+    "average_solving_time_sec": 71,
     "has_real_data": true
   },
   {
@@ -1181,7 +1181,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.83,
-    "average_solving_time_sec": 91,
+    "average_solving_time_sec": 89,
     "has_real_data": true
   },
   {
@@ -1196,7 +1196,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.74,
-    "average_solving_time_sec": 130,
+    "average_solving_time_sec": 118,
     "has_real_data": true
   },
   {
@@ -1211,7 +1211,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.72,
-    "average_solving_time_sec": 141,
+    "average_solving_time_sec": 147,
     "has_real_data": true
   },
   {
@@ -1226,7 +1226,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.68,
-    "average_solving_time_sec": 161,
+    "average_solving_time_sec": 148,
     "has_real_data": true
   },
   {
@@ -1241,7 +1241,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.61,
-    "average_solving_time_sec": 182,
+    "average_solving_time_sec": 183,
     "has_real_data": true
   },
   {
@@ -1256,7 +1256,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.82,
-    "average_solving_time_sec": 111,
+    "average_solving_time_sec": 104,
     "has_real_data": true
   },
   {
@@ -1271,7 +1271,7 @@
     "question_type": "객관식",
     "answer": "133",
     "average_correct_rate": 0.86,
-    "average_solving_time_sec": 92,
+    "average_solving_time_sec": 78,
     "has_real_data": true
   },
   {
@@ -1286,7 +1286,7 @@
     "question_type": "주관식",
     "answer": "38",
     "average_correct_rate": 0.43,
-    "average_solving_time_sec": 252,
+    "average_solving_time_sec": 238,
     "has_real_data": true
   },
   {
@@ -1301,7 +1301,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.93,
-    "average_solving_time_sec": 78,
+    "average_solving_time_sec": 77,
     "has_real_data": true
   },
   {
@@ -1316,7 +1316,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.84,
-    "average_solving_time_sec": 90,
+    "average_solving_time_sec": 94,
     "has_real_data": true
   },
   {
@@ -1331,7 +1331,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.8,
-    "average_solving_time_sec": 108,
+    "average_solving_time_sec": 103,
     "has_real_data": true
   },
   {
@@ -1346,7 +1346,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.75,
-    "average_solving_time_sec": 135,
+    "average_solving_time_sec": 119,
     "has_real_data": true
   },
   {
@@ -1361,7 +1361,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.59,
-    "average_solving_time_sec": 195,
+    "average_solving_time_sec": 178,
     "has_real_data": true
   },
   {
@@ -1376,7 +1376,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.7,
-    "average_solving_time_sec": 140,
+    "average_solving_time_sec": 158,
     "has_real_data": true
   },
   {
@@ -1391,7 +1391,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.49,
-    "average_solving_time_sec": 226,
+    "average_solving_time_sec": 206,
     "has_real_data": true
   },
   {
@@ -1406,7 +1406,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.87,
-    "average_solving_time_sec": 77,
+    "average_solving_time_sec": 79,
     "has_real_data": true
   },
   {
@@ -1421,7 +1421,7 @@
     "question_type": "객관식",
     "answer": "163",
     "average_correct_rate": 0.8,
-    "average_solving_time_sec": 100,
+    "average_solving_time_sec": 120,
     "has_real_data": true
   },
   {
@@ -1436,7 +1436,7 @@
     "question_type": "객관식",
     "answer": "24",
     "average_correct_rate": 0.5,
-    "average_solving_time_sec": 201,
+    "average_solving_time_sec": 212,
     "has_real_data": true
   },
   {
@@ -1451,7 +1451,7 @@
     "question_type": "주관식",
     "answer": "76",
     "average_correct_rate": 0.37,
-    "average_solving_time_sec": 249,
+    "average_solving_time_sec": 268,
     "has_real_data": true
   },
   {
@@ -1466,7 +1466,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.86,
-    "average_solving_time_sec": 83,
+    "average_solving_time_sec": 74,
     "has_real_data": true
   },
   {
@@ -1481,7 +1481,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.83,
-    "average_solving_time_sec": 87,
+    "average_solving_time_sec": 103,
     "has_real_data": true
   },
   {
@@ -1496,7 +1496,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.7,
-    "average_solving_time_sec": 151,
+    "average_solving_time_sec": 135,
     "has_real_data": true
   },
   {
@@ -1511,7 +1511,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.72,
-    "average_solving_time_sec": 147,
+    "average_solving_time_sec": 139,
     "has_real_data": true
   },
   {
@@ -1526,7 +1526,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.71,
-    "average_solving_time_sec": 147,
+    "average_solving_time_sec": 155,
     "has_real_data": true
   },
   {
@@ -1541,7 +1541,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.65,
-    "average_solving_time_sec": 170,
+    "average_solving_time_sec": 176,
     "has_real_data": true
   },
   {
@@ -1556,7 +1556,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.59,
-    "average_solving_time_sec": 189,
+    "average_solving_time_sec": 196,
     "has_real_data": true
   },
   {
@@ -1571,7 +1571,7 @@
     "question_type": "객관식",
     "answer": "8",
     "average_correct_rate": 0.83,
-    "average_solving_time_sec": 89,
+    "average_solving_time_sec": 111,
     "has_real_data": true
   },
   {
@@ -1586,7 +1586,7 @@
     "question_type": "객관식",
     "answer": "30",
     "average_correct_rate": 0.8,
-    "average_solving_time_sec": 96,
+    "average_solving_time_sec": 104,
     "has_real_data": true
   },
   {
@@ -1601,7 +1601,7 @@
     "question_type": "주관식",
     "answer": "73",
     "average_correct_rate": 0.4,
-    "average_solving_time_sec": 256,
+    "average_solving_time_sec": 238,
     "has_real_data": true
   },
   {
@@ -1616,7 +1616,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.92,
-    "average_solving_time_sec": 58,
+    "average_solving_time_sec": 55,
     "has_real_data": true
   },
   {
@@ -1631,7 +1631,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.8,
-    "average_solving_time_sec": 119,
+    "average_solving_time_sec": 117,
     "has_real_data": true
   },
   {
@@ -1646,7 +1646,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.73,
-    "average_solving_time_sec": 144,
+    "average_solving_time_sec": 132,
     "has_real_data": true
   },
   {
@@ -1661,7 +1661,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.73,
-    "average_solving_time_sec": 140,
+    "average_solving_time_sec": 128,
     "has_real_data": true
   },
   {
@@ -1676,7 +1676,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.68,
-    "average_solving_time_sec": 164,
+    "average_solving_time_sec": 163,
     "has_real_data": true
   },
   {
@@ -1691,7 +1691,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.67,
-    "average_solving_time_sec": 154,
+    "average_solving_time_sec": 145,
     "has_real_data": true
   },
   {
@@ -1706,7 +1706,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.48,
-    "average_solving_time_sec": 229,
+    "average_solving_time_sec": 222,
     "has_real_data": true
   },
   {
@@ -1721,7 +1721,7 @@
     "question_type": "객관식",
     "answer": "6",
     "average_correct_rate": 0.79,
-    "average_solving_time_sec": 113,
+    "average_solving_time_sec": 114,
     "has_real_data": true
   },
   {
@@ -1736,7 +1736,7 @@
     "question_type": "객관식",
     "answer": "120",
     "average_correct_rate": 0.71,
-    "average_solving_time_sec": 144,
+    "average_solving_time_sec": 127,
     "has_real_data": true
   },
   {
@@ -1751,7 +1751,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.46,
-    "average_solving_time_sec": 215,
+    "average_solving_time_sec": 234,
     "has_real_data": true
   },
   {
@@ -1766,7 +1766,7 @@
     "question_type": "주관식",
     "answer": "63",
     "average_correct_rate": 0.31,
-    "average_solving_time_sec": 270,
+    "average_solving_time_sec": 286,
     "has_real_data": true
   },
   {
@@ -1781,7 +1781,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.89,
-    "average_solving_time_sec": 71,
+    "average_solving_time_sec": 83,
     "has_real_data": true
   },
   {
@@ -1796,7 +1796,7 @@
     "question_type": "객관식",
     "answer": "5",
     "average_correct_rate": 0.8,
-    "average_solving_time_sec": 121,
+    "average_solving_time_sec": 116,
     "has_real_data": true
   },
   {
@@ -1811,7 +1811,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.79,
-    "average_solving_time_sec": 107,
+    "average_solving_time_sec": 113,
     "has_real_data": true
   },
   {
@@ -1826,7 +1826,7 @@
     "question_type": "객관식",
     "answer": "1",
     "average_correct_rate": 0.74,
-    "average_solving_time_sec": 136,
+    "average_solving_time_sec": 140,
     "has_real_data": true
   },
   {
@@ -1841,7 +1841,7 @@
     "question_type": "객관식",
     "answer": "3",
     "average_correct_rate": 0.7,
-    "average_solving_time_sec": 143,
+    "average_solving_time_sec": 152,
     "has_real_data": true
   },
   {
@@ -1856,7 +1856,7 @@
     "question_type": "객관식",
     "answer": "2",
     "average_correct_rate": 0.74,
-    "average_solving_time_sec": 137,
+    "average_solving_time_sec": 117,
     "has_real_data": true
   },
   {
@@ -1871,7 +1871,7 @@
     "question_type": "객관식",
     "answer": "4",
     "average_correct_rate": 0.52,
-    "average_solving_time_sec": 205,
+    "average_solving_time_sec": 211,
     "has_real_data": true
   },
   {
@@ -1886,7 +1886,7 @@
     "question_type": "객관식",
     "answer": "9",
     "average_correct_rate": 0.88,
-    "average_solving_time_sec": 83,
+    "average_solving_time_sec": 68,
     "has_real_data": true
   },
   {
@@ -1901,7 +1901,7 @@
     "question_type": "객관식",
     "answer": "12",
     "average_correct_rate": 0.8,
-    "average_solving_time_sec": 124,
+    "average_solving_time_sec": 118,
     "has_real_data": true
   },
   {
@@ -1916,7 +1916,7 @@
     "question_type": "주관식",
     "answer": "457",
     "average_correct_rate": 0.32,
-    "average_solving_time_sec": 272,
+    "average_solving_time_sec": 276,
     "has_real_data": true
   }
 ]

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const IMAGES_DIR = path.join(__dirname, '..', 'data', 'images');
+const IMAGES_DIR = path.join(__dirname, '..', 'public', 'data', 'images');
 const ANSWERS_CSV = path.join(__dirname, '..', 'data', 'answers.csv');
 const OUTPUT_FILE = path.join(__dirname, '..', 'public', 'data', 'questions.json');
 
@@ -81,8 +81,11 @@ function parseFilename(filename, answerMap) {
   const examType = EXAM_TYPE_MAP[examTypeCode] || examTypeCode;
   const questionType = questionNumber >= 22 ? '주관식' : '객관식';
 
+  // Construct CSV matching ID (e.g. "24-대수-03-1")
+  const csvQuestionId = `${parts[0]}-${parts[1]}-${parts[2]}-${parseInt(parts[3], 10)}`;
+
   // CSV에서 실제 데이터 가져오기, 없으면 fallback
-  const csvData = answerMap[nameWithoutExt];
+  const csvData = answerMap[csvQuestionId];
   const answer = csvData
     ? csvData.answer
     : generateFallbackAnswer(questionNumber, questionType);
