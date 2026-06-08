@@ -137,8 +137,8 @@ export default function DiagnosticPage() {
             <div style={styles.introIcon}>🎯</div>
             <h1 className="heading-lg">진단 테스트</h1>
             <p className="text-secondary" style={styles.introDesc}>
-              총 <strong style={{ color: "var(--accent-primary)" }}>20문항</strong>으로 구성된 진단 테스트를 통해
-              기초 실력을 파악합니다. 문항별 응답 시간이 자동으로 측정됩니다.
+              총 <strong style={{ color: "var(--accent-primary)" }}>20문항</strong>으로 구성된 진단 테스트를 통해 기초 실력을 파악합니다.
+              문항별 응답 시간이 자동으로 측정됩니다.
             </p>
 
             <div style={styles.infoCards}>
@@ -229,11 +229,11 @@ export default function DiagnosticPage() {
           <div style={styles.timerGroup}>
             <div style={styles.timerBox}>
               <span className="timer-label">현재 문항</span>
-              <span className="timer-display" style={{ 
-                fontSize: "1.5rem", 
-                color: elapsedTime > 180 ? "var(--status-zoning-out)" : 
-                       elapsedTime > 120 ? "var(--accent-caution)" : 
-                       "var(--text-primary)" 
+              <span className="timer-display" style={{
+                fontSize: "1.5rem",
+                color: elapsedTime > 180 ? "var(--status-zoning-out)" :
+                  elapsedTime > 120 ? "var(--accent-caution)" :
+                    "var(--text-primary)"
               }}>
                 {formatTime(elapsedTime)}
               </span>
