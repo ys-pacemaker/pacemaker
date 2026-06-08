@@ -163,6 +163,12 @@ export default function DiagnosticPage() {
               </div>
             )}
 
+            <div style={{ marginTop: "var(--space-lg)", padding: "var(--space-md)", background: "var(--bg-tertiary)", borderLeft: "4px solid var(--accent-primary)", borderRadius: "var(--radius-sm)", textAlign: "left" }}>
+              <p style={{ margin: 0, fontSize: "0.95rem", color: "var(--text-secondary)" }}>
+                💡 <strong>안내:</strong> 세션이 시작되면 화면에 문항이 표시됩니다. 원활한 풀이를 위해 계산용 연습장과 필기도구를 미리 준비해 주세요.
+              </p>
+            </div>
+
             <button
               className="btn btn-primary btn-lg"
               onClick={startExam}
