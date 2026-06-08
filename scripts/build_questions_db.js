@@ -7,6 +7,7 @@ const OUTPUT_FILE = path.join(__dirname, '..', 'public', 'data', 'questions.json
 
 const EXAM_TYPE_MAP = {
   '03': '3월 학력평가',
+  '04': '4월 학력평가',
   '05': '5월 학력평가',
   '06': '6월 모의평가',
   '07': '7월 학력평가',
