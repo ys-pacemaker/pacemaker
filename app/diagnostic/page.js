@@ -74,6 +74,7 @@ export default function DiagnosticPage() {
       question_id: question.question_id,
       question_number: question.question_number,
       unit: question.unit,
+      question_image: question.question_image,
       user_answer: selectedAnswer,
       is_correct: selectedAnswer === question.answer,
       response_time_sec: responseTime,

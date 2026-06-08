@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef, Suspense } from "react";
+import { useState, useEffect, useRef, useCallback, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { getSessionById, getSessions } from "@/lib/storage";
+import { loadQuestions } from "@/lib/questions";
 import {
   detectOutliers,
   analyzeEfficiencyByUnit,
@@ -55,6 +56,9 @@ function ReportContent() {
   const searchParams = useSearchParams();
   const sessionId = searchParams.get("session");
   const [session, setSession] = useState(null);
+  const [questionsMap, setQuestionsMap] = useState({});
+  const [hoveredQuestion, setHoveredQuestion] = useState(null);
+  const tooltipRef = useRef(null);
 
   useEffect(() => {
     if (sessionId) {
@@ -67,6 +71,79 @@ function ReportContent() {
       }
     }
   }, [sessionId]);
+
+  // Load questions data for image lookup (fallback for older sessions)
+  useEffect(() => {
+    loadQuestions()
+      .then((questions) => {
+        const map = {};
+        questions.forEach((q) => {
+          map[q.question_id] = q;
+        });
+        setQuestionsMap(map);
+      })
+      .catch(() => {});
+  }, []);
+
+  // Get question image by response data
+  const getQuestionImage = useCallback(
+    (response) => {
+      if (response.question_image) return response.question_image;
+      const q = questionsMap[response.question_id];
+      return q ? q.question_image : null;
+    },
+    [questionsMap]
+  );
+
+  // Custom external tooltip handler
+  const externalTooltipHandler = useCallback(
+    (context) => {
+      const { tooltip } = context;
+
+      if (tooltip.opacity === 0) {
+        setHoveredQuestion(null);
+        return;
+      }
+
+      const dataPoint = tooltip.dataPoints?.[0];
+      if (!dataPoint) {
+        setHoveredQuestion(null);
+        return;
+      }
+
+      // Get the response index from the data point
+      const raw = dataPoint.raw;
+      let response = null;
+
+      if (raw && raw.responseIndex !== undefined) {
+        response = session?.responses?.[raw.responseIndex];
+      } else if (dataPoint.dataIndex !== undefined && dataPoint.dataset?.data) {
+        // For bar charts, dataIndex maps directly to responses
+        response = session?.responses?.[dataPoint.dataIndex];
+      }
+
+      if (!response) {
+        setHoveredQuestion(null);
+        return;
+      }
+
+      const image = getQuestionImage(response);
+      const chartRect = context.chart.canvas.getBoundingClientRect();
+
+      setHoveredQuestion({
+        image,
+        unit: response.unit,
+        questionNumber: response.question_number,
+        questionId: response.question_id,
+        isCorrect: response.is_correct,
+        statusFlag: response.status_flag,
+        responseTime: response.response_time_sec,
+        x: chartRect.left + tooltip.caretX,
+        y: chartRect.top + tooltip.caretY,
+      });
+    },
+    [session, getQuestionImage]
+  );
 
   if (!session) {
     return (
@@ -102,6 +179,7 @@ function ReportContent() {
             x: r.response_time_sec,
             y: r.average_correct_rate * 100,
             label: r.unit,
+            responseIndex: responses.indexOf(r),
           })),
         backgroundColor: color + "cc",
         borderColor: color,
@@ -117,28 +195,8 @@ function ReportContent() {
     maintainAspectRatio: false,
     plugins: {
       tooltip: {
-        callbacks: {
-          label: (ctx) => {
-            const r = responses.find(
-              (resp) =>
-                resp.response_time_sec === ctx.parsed.x &&
-                resp.average_correct_rate * 100 === ctx.parsed.y
-            );
-            return [
-              `단원: ${r?.unit || ""}`,
-              `응답 시간: ${formatTime(ctx.parsed.x)}`,
-              `정답률: ${ctx.parsed.y.toFixed(0)}%`,
-              `상태: ${r?.status_flag || ""}`,
-            ];
-          },
-        },
-        backgroundColor: "rgba(18, 18, 26, 0.95)",
-        titleColor: "#e8e8f0",
-        bodyColor: "#9999b3",
-        borderColor: "rgba(255, 255, 255, 0.1)",
-        borderWidth: 1,
-        padding: 12,
-        cornerRadius: 8,
+        enabled: false,
+        external: externalTooltipHandler,
       },
       legend: {
         position: "bottom",
@@ -208,16 +266,8 @@ function ReportContent() {
     plugins: {
       legend: { display: false },
       tooltip: {
-        callbacks: {
-          title: (ctx) => {
-            const idx = ctx[0].dataIndex;
-            return `문항 ${idx + 1} - ${responses[idx].unit}`;
-          },
-          label: (ctx) => `Z-Score: ${ctx.parsed.y.toFixed(2)}`,
-        },
-        backgroundColor: "rgba(18, 18, 26, 0.95)",
-        padding: 12,
-        cornerRadius: 8,
+        enabled: false,
+        external: externalTooltipHandler,
       },
     },
     scales: {
@@ -318,6 +368,51 @@ function ReportContent() {
 
   return (
     <div className="page">
+      {/* Floating Question Image Tooltip */}
+      {hoveredQuestion && hoveredQuestion.image && (
+        <div
+          ref={tooltipRef}
+          style={{
+            ...styles.imageTooltip,
+            left: `${hoveredQuestion.x}px`,
+            top: `${hoveredQuestion.y}px`,
+          }}
+        >
+          <div style={styles.tooltipHeader}>
+            <span style={{
+              ...styles.tooltipBadge,
+              background: hoveredQuestion.isCorrect
+                ? 'rgba(0, 212, 170, 0.2)'
+                : 'rgba(255, 107, 107, 0.2)',
+              color: hoveredQuestion.isCorrect ? '#00d4aa' : '#ff6b6b',
+            }}>
+              {hoveredQuestion.isCorrect ? '✓ 정답' : '✗ 오답'}
+            </span>
+            <span style={styles.tooltipMeta}>
+              Q{hoveredQuestion.questionNumber} · {hoveredQuestion.unit}
+            </span>
+          </div>
+          <div style={styles.tooltipImageWrapper}>
+            <img
+              src={hoveredQuestion.image}
+              alt={`문항 ${hoveredQuestion.questionNumber}`}
+              style={styles.tooltipImage}
+            />
+          </div>
+          <div style={styles.tooltipFooter}>
+            <span style={{
+              fontSize: '0.7rem',
+              color: STATUS_COLORS[hoveredQuestion.statusFlag] || '#9999b3',
+              fontWeight: '600',
+            }}>
+              {hoveredQuestion.statusFlag}
+            </span>
+            <span style={{ fontSize: '0.7rem', color: '#9999b3' }}>
+              {formatTime(hoveredQuestion.responseTime)}
+            </span>
+          </div>
+        </div>
+      )}
       <div className="container">
         {/* Header */}
         <div style={styles.header} className="animate-fade-in-up">
@@ -747,5 +842,64 @@ const styles = {
     justifyContent: "center",
     gap: "var(--space-md)",
     marginTop: "var(--space-2xl)",
+  },
+  imageTooltip: {
+    position: "fixed",
+    zIndex: 9999,
+    transform: "translate(-50%, -110%)",
+    pointerEvents: "none",
+    background: "rgba(18, 18, 30, 0.96)",
+    backdropFilter: "blur(16px)",
+    WebkitBackdropFilter: "blur(16px)",
+    border: "1px solid rgba(255, 255, 255, 0.12)",
+    borderRadius: "12px",
+    padding: "10px",
+    boxShadow: "0 20px 60px rgba(0, 0, 0, 0.6), 0 0 30px rgba(108, 99, 255, 0.15)",
+    maxWidth: "320px",
+    width: "320px",
+    transition: "opacity 0.15s ease, transform 0.15s ease",
+  },
+  tooltipHeader: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: "8px",
+    gap: "8px",
+  },
+  tooltipBadge: {
+    padding: "2px 8px",
+    borderRadius: "6px",
+    fontSize: "0.7rem",
+    fontWeight: "700",
+    letterSpacing: "0.02em",
+  },
+  tooltipMeta: {
+    fontSize: "0.75rem",
+    color: "#b0b0cc",
+    fontWeight: "500",
+  },
+  tooltipImageWrapper: {
+    background: "rgba(255, 255, 255, 0.95)",
+    borderRadius: "8px",
+    padding: "8px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    maxHeight: "240px",
+    overflow: "hidden",
+  },
+  tooltipImage: {
+    maxWidth: "100%",
+    maxHeight: "220px",
+    objectFit: "contain",
+    borderRadius: "4px",
+  },
+  tooltipFooter: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginTop: "8px",
+    paddingTop: "6px",
+    borderTop: "1px solid rgba(255, 255, 255, 0.08)",
   },
 };
